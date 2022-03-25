@@ -7,7 +7,7 @@ void GenArray(int[] array)
     Random rand = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(minValue, maxValue + 1);
+        array[i] = rand().Next(minValue, maxValue + 1);
     }
 }
 void PrintArray (int[] array)
